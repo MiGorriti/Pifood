@@ -1,0 +1,68 @@
+.mainContainer {
+   background-image: url("../../../img/descarga\ \(2\).jpg");
+    width: 18rem; 
+    height: 32rem;
+    border-width: 0.1rem;
+    border-style: outset;
+    background-size:cover;
+    border-radius: 10px;
+    border-color: #596e79;
+    transition: transform .5s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: wheat;
+    text-decoration: none;
+    scale: 0.9;
+}
+
+.mainContainer:hover{
+    transform: scale(1.1);
+}
+
+.title {
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.87)
+
+}
+
+.title:hover {
+    color:#000000;
+    text-shadow: 0 0 5px #05f1ca,
+    0 0 25px #ad0505,
+    0 0 50px #05f1ca,
+    0 0 100px #05f1ca;
+    }
+
+
+.diets {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.87)
+
+}
+
+.diets:hover {
+    color:#000000;
+    text-shadow: 0 0 5px #05f1ca,
+    0 0 25px #ad0505,
+    0 0 50px #05f1ca,
+    0 0 100px #05f1ca;
+    }
+
+
+.image {
+    width: 100%;
+    height: 40%;
+    align-content: center;
+    border-radius: 10px;
+}

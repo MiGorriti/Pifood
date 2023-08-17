@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); */
+
+.background {
+    background-image: url("../../../img/descarga.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    height: 100%; 
+    position:fixed  
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.apiTitle {
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center; 
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/848/394/415/wood-background-wallpaper-preview.jpg);
+    padding: 5px;
+    transition: 1s;
+}
+
+.apiTitle:hover {
+color:#000000;
+text-shadow: 0 0 5px #05f1ca,
+0 0 25px #ad0505,
+0 0 50px #05f1ca,
+0 0 100px #05f1ca;
+
+
+}
+
+.button {
+    background-color: transparent;
+    flex-direction: column;
+    color: #fff;
+    font-size: 25px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    border-radius: 9999px;
+    border: #fff solid 3px;
+    padding: 30px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-top: 1px;
+    margin-top: 150px;
+    margin-left: 45%;
+}
+
+.button:hover {
+    background-color: #05f1ca;
+    color: #ffffff;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
